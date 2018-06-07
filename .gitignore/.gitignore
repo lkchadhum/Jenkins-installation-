@@ -7,5 +7,4 @@ systemctl start jenkins
 systemctl enable jenkins
 systemctl status jenkins
 netstat -lntp
-/var/lib/jenkins/secrets/initialAdminPassword
 cat /var/lib/jenkins/secrets/initialAdminPassword 
